@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: black;
+    background-color: navajowhite;
     display: grid;
     place-items: center;
     height: 100vh;
@@ -43,4 +43,8 @@ main div{
 .fifth_container{
     background-color: #FA6900;
     grid-area: e;
+}
+#index{
+    text-align: left;
+    text-decoration-color: #E0E4CC;
 }

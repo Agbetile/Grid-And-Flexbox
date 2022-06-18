@@ -11,12 +11,12 @@ body{
     font-family: 'Lexend Deca', sans-serif;
 }
 main{
-    width: 90%;
+    width: 80%;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
 }
 
 .A{
