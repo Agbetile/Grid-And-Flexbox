@@ -1,0 +1,87 @@
+@import url (https://fonts.google.com/specimen/Lexend+Deca)
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /* font-weight: 400; */
+    font-size: 15px;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+main{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.A{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+}
+.A h2{
+    padding-bottom: 10px;
+    color: hsl(0, 0%, 95%);
+}
+.A p{
+    padding-bottom: 30px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.A button{
+    background-color: hsl(0, 0%, 95%);
+    width: 70%;
+    border: none;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: hsl(31, 77%, 52%);
+    border-radius: 20px;
+}
+.B{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+}
+.B h2{
+    padding-bottom: 10px;
+    color: hsl(0, 0%, 95%);
+}
+.B p{
+    padding-bottom: 30px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.B button{
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    width: 70%;
+    border: none;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: hsl(184, 100%, 22%);
+}
+.C{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+}
+.C h2{
+    padding-bottom: 10px;
+    color: hsl(0, 0%, 95%);
+}
+.C p{
+    padding-bottom: 30px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.C button{
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    width: 70%;
+    border: none;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: hsl(179, 100%, 13%);
+}

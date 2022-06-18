@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+main{
+    display: grid;
+    grid-template-areas: 
+    'a a b'
+    'c d d'
+    'c e e'
+    ;
+    gap: 10px;
+    width: 50%;
+    margin: auto;
+}
+main div{
+    padding: 2em;
+    text-align: center;
+    border-radius: 5px;
+}
+.first_container{
+    background-color: #69D2E7;
+    grid-area: a;
+}
+.second_container{
+    background-color: #A7DBD8;
+    grid-area: b;
+}
+.third_container{
+    background-color: #E0E4CC;
+    grid-area: c;
+}
+.fourth_container{
+    background-color: #F38630;
+    grid-area: d;
+}
+.fifth_container{
+    background-color: #FA6900;
+    grid-area: e;
+}
